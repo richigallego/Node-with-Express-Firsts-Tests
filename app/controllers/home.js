@@ -4,7 +4,8 @@ var homeController = function(server){
 	server.route('/')
 
 		.get(function (req,res){
-			res.send('Hola Richi');
+			//res.send('Hola Richi');
+			res.render('index');
 		});
 };
 
